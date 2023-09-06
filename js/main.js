@@ -1,7 +1,7 @@
 createApp({
   data() {
     return {
-      count: 0,
+      emailList: [],
     };
   },
 }).mount("#app");

@@ -21,11 +21,14 @@
   </head>
   <body>
     <div id="app">
-        <div class="container">
-            <ul>
-                <li></li>
-            </ul>
-        </div>
+      <div class="container">
+        <h1 class="text-center">LISTA EMAIL</h1>
+        <hr />
+
+        <ul>
+            <li v-for="email in emailList">{{ email }}</li>
+        </ul>
+      </div>
     </div>
   </body>
 </html>
