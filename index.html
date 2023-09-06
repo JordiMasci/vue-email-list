@@ -27,7 +27,7 @@
         <h1 class="text-center">LISTA EMAIL</h1>
         <hr />
 
-        <ul>
+        <ul v-if="emailList.length == 10 ">
           <li v-for="email in emailList">{{ email }}</li>
         </ul>
       </div>
